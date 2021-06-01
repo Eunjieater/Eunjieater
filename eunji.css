@@ -1,0 +1,86 @@
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+body {
+    margin: 0;
+}
+
+/* header 영역 */
+header {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /*수직 배치*/
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+/* navigation bar */
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* 왼쪽 사이드 */
+aside {
+    flex-grow: 3;
+    background-color: white;
+    padding: 20px;
+}
+
+article {
+    flex: 7;
+    background-color: white;
+    padding: 20px;
+}
+
+.fakeimg {
+    background: white;
+    width: 100%;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: white;
+}
+
+@media all and (max-width: 600px) {
+
+    #container,
+    nav {
+        flex-direction: column;
+    }
+}
+
+
