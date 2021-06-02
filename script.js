@@ -34,7 +34,7 @@ $(function () {
         "                            style=\"max-width: 35%; height: auto\" alt=\"\"></a>\n" +
         "                </div>\n" +
         "                <h3>PHOTOGRAPHY</h3>\n" +
-        "                <p>예쁜 곳에 가서 예쁜 사진을 찍는 것을 굉장히 좋아합니다..</p>\n" +
+        "                <p>아름다운 곳에 가서 아름다운 사진을 찍는 것을 굉장히 좋아합니다..</p>\n" +
         "                <div class=\"img\">\n" +
         "                    <a href=\"https://imgur.com/IgpJBUC\">\n" +
         "                        <img src=\"https://i.imgur.com/IgpJBUC.jpg\" title=\"source: imgur.com\"\n" +
